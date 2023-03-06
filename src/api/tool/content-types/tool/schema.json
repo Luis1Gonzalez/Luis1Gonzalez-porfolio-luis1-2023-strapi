@@ -4,7 +4,8 @@
   "info": {
     "singularName": "tool",
     "pluralName": "tools",
-    "displayName": "tools"
+    "displayName": "tools",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,12 +17,12 @@
       "required": true
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

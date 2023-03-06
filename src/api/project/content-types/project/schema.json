@@ -1,0 +1,91 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "projects",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "spanish1": {
+      "type": "text",
+      "required": true
+    },
+    "codeUrl": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    },
+    "spanish2": {
+      "type": "text",
+      "required": true
+    },
+    "spanish3": {
+      "type": "text"
+    },
+    "english1": {
+      "type": "text",
+      "required": true
+    },
+    "english2": {
+      "type": "text",
+      "required": true
+    },
+    "english3": {
+      "type": "text"
+    },
+    "web": {
+      "type": "string",
+      "required": true
+    },
+    "github": {
+      "type": "string",
+      "required": true
+    },
+    "lighthouse": {
+      "type": "string",
+      "required": true
+    },
+    "image1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image2": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image3": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
