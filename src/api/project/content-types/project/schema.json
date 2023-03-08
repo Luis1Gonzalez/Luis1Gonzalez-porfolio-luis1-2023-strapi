@@ -37,9 +37,6 @@
       "type": "text",
       "required": true
     },
-    "spanish3": {
-      "type": "text"
-    },
     "english1": {
       "type": "text",
       "required": true
@@ -47,9 +44,6 @@
     "english2": {
       "type": "text",
       "required": true
-    },
-    "english3": {
-      "type": "text"
     },
     "web": {
       "type": "string",
@@ -85,6 +79,126 @@
       "required": false,
       "allowedTypes": [
         "images"
+      ]
+    },
+    "tecnology1": {
+      "type": "enumeration",
+      "enum": [
+        "Ex:",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React JS",
+        "Sass",
+        "Bootstrap",
+        "Tailwind",
+        "Strapi",
+        "Remix Run"
+      ]
+    },
+    "tecnology2": {
+      "type": "enumeration",
+      "enum": [
+        "Ex:",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React JS",
+        "Sass",
+        "Bootstrap",
+        "Tailwind",
+        "Strapi",
+        "Remix Run"
+      ]
+    },
+    "tecnology3": {
+      "type": "enumeration",
+      "enum": [
+        "Ex:",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React JS",
+        "Sass",
+        "Bootstrap",
+        "Tailwind",
+        "Strapi",
+        "Remix Run"
+      ]
+    },
+    "tecnology4": {
+      "type": "enumeration",
+      "enum": [
+        "Ex:",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React JS",
+        "Sass",
+        "Bootstrap",
+        "Tailwind",
+        "Strapi",
+        "Remix Run"
+      ]
+    },
+    "tecnology5": {
+      "type": "enumeration",
+      "enum": [
+        "Ex:",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React JS",
+        "Sass",
+        "Bootstrap",
+        "Tailwind",
+        "Strapi",
+        "Remix Run"
+      ]
+    },
+    "tecnology6": {
+      "type": "enumeration",
+      "enum": [
+        "Ex:",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React JS",
+        "Sass",
+        "Bootstrap",
+        "Tailwind",
+        "Strapi",
+        "Remix Run"
+      ]
+    },
+    "tecnology7": {
+      "type": "enumeration",
+      "enum": [
+        "Ex:",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React JS",
+        "Sass",
+        "Bootstrap",
+        "Tailwind",
+        "Strapi",
+        "Remix Run"
+      ]
+    },
+    "tecnology8": {
+      "type": "enumeration",
+      "enum": [
+        "Ex:",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React JS",
+        "Sass",
+        "Bootstrap",
+        "Tailwind",
+        "Strapi",
+        "Remix Run"
       ]
     }
   }
